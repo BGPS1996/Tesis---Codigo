@@ -1,0 +1,606 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Tue Mar 10 15:37:00 2026
+# Process ID         : 11680
+# Current directory  : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1
+# Command line       : vivado.exe -log zybo_ibex_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zybo_ibex_top.tcl
+# Log file           : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/zybo_ibex_top.vds
+# Journal file       : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-AD77AUU
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19044
+# Processor Detail   : Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+# CPU Frequency      : 1995 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 12804 MB
+# Swap memory        : 5333 MB
+# Total Virtual      : 18137 MB
+# Available Virtual  : 3575 MB
+#-----------------------------------------------------------
+source zybo_ibex_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:45 ; elapsed = 00:01:06 . Memory (MB): peak = 628.199 ; gain = 248.074
+Command: read_checkpoint -auto_incremental -incremental C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/utils_1/imports/synth_1/ibex_top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/utils_1/imports/synth_1/ibex_top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top zybo_ibex_top -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18204
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1339.340 ; gain = 491.375
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11067] parameter 'ADDR_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:381]
+WARNING: [Synth 8-11067] parameter 'BUS_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:382]
+WARNING: [Synth 8-11067] parameter 'BUS_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:383]
+WARNING: [Synth 8-11067] parameter 'BUS_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:384]
+WARNING: [Synth 8-11067] parameter 'IC_SIZE_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:385]
+WARNING: [Synth 8-11067] parameter 'IC_NUM_WAYS' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:386]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:387]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BYTES' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:388]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:389]
+WARNING: [Synth 8-11067] parameter 'IC_NUM_LINES' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:390]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BEATS' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:391]
+WARNING: [Synth 8-11067] parameter 'IC_LINE_BEATS_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:392]
+WARNING: [Synth 8-11067] parameter 'IC_INDEX_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:393]
+WARNING: [Synth 8-11067] parameter 'IC_INDEX_HI' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:394]
+WARNING: [Synth 8-11067] parameter 'IC_TAG_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:395]
+WARNING: [Synth 8-11067] parameter 'IC_OUTPUT_BEATS' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:396]
+WARNING: [Synth 8-11067] parameter 'SCRAMBLE_KEY_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:398]
+WARNING: [Synth 8-11067] parameter 'SCRAMBLE_NONCE_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:399]
+WARNING: [Synth 8-11067] parameter 'PMP_MAX_REGIONS' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:402]
+WARNING: [Synth 8-11067] parameter 'PMP_CFG_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:403]
+WARNING: [Synth 8-11067] parameter 'PMP_ADDR_MSB' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:406]
+WARNING: [Synth 8-11067] parameter 'PMP_ADDR_LSB' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:409]
+WARNING: [Synth 8-11067] parameter 'PMP_I' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:412]
+WARNING: [Synth 8-11067] parameter 'PMP_I2' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:413]
+WARNING: [Synth 8-11067] parameter 'PMP_D' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:414]
+WARNING: [Synth 8-11067] parameter 'CSR_OFF_PMP_CFG' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:614]
+WARNING: [Synth 8-11067] parameter 'CSR_OFF_PMP_ADDR' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:615]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MIE_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:618]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPIE_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:619]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPP_BIT_LOW' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:620]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPP_BIT_HIGH' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:621]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_MPRV_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:622]
+WARNING: [Synth 8-11067] parameter 'CSR_MSTATUS_TW_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:623]
+WARNING: [Synth 8-11067] parameter 'CSR_MISA_MXL' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:626]
+WARNING: [Synth 8-11067] parameter 'CSR_MSIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:629]
+WARNING: [Synth 8-11067] parameter 'CSR_MTIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:630]
+WARNING: [Synth 8-11067] parameter 'CSR_MEIX_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:631]
+WARNING: [Synth 8-11067] parameter 'CSR_MFIX_BIT_LOW' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:632]
+WARNING: [Synth 8-11067] parameter 'CSR_MFIX_BIT_HIGH' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:633]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_MML_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:636]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_MMWP_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:637]
+WARNING: [Synth 8-11067] parameter 'CSR_MSECCFG_RLB_BIT' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:638]
+WARNING: [Synth 8-11067] parameter 'LfsrWidth' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:653]
+WARNING: [Synth 8-11067] parameter 'RndCnstLfsrSeedDefault' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:656]
+WARNING: [Synth 8-11067] parameter 'RndCnstLfsrPermDefault' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:657]
+WARNING: [Synth 8-11067] parameter 'RndCnstIbexKeyDefault' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:660]
+WARNING: [Synth 8-11067] parameter 'RndCnstIbexNonceDefault' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:662]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiWidth' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:667]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiOn' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:674]
+WARNING: [Synth 8-11067] parameter 'IbexMuBiOff' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:675]
+WARNING: [Synth 8-11067] parameter 'PmpCfgRst' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:684]
+WARNING: [Synth 8-11067] parameter 'PmpAddrRst' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:706]
+WARNING: [Synth 8-11067] parameter 'PmpMseccfgRst' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:725]
+WARNING: [Synth 8-11067] parameter 'Secded2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:175]
+WARNING: [Synth 8-11067] parameter 'Secded2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:176]
+WARNING: [Synth 8-11067] parameter 'Secded2822ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:184]
+WARNING: [Synth 8-11067] parameter 'Secded2822ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:185]
+WARNING: [Synth 8-11067] parameter 'Secded3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:193]
+WARNING: [Synth 8-11067] parameter 'Secded3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:194]
+WARNING: [Synth 8-11067] parameter 'Secded6457ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:202]
+WARNING: [Synth 8-11067] parameter 'Secded6457ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:203]
+WARNING: [Synth 8-11067] parameter 'Secded7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:211]
+WARNING: [Synth 8-11067] parameter 'Secded7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:212]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:220]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:221]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:229]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:230]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:238]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:239]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7668ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:247]
+WARNING: [Synth 8-11067] parameter 'SecdedHamming7668ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:248]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:256]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:257]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2822ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:265]
+WARNING: [Synth 8-11067] parameter 'SecdedInv2822ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:266]
+WARNING: [Synth 8-11067] parameter 'SecdedInv3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:274]
+WARNING: [Synth 8-11067] parameter 'SecdedInv3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:275]
+WARNING: [Synth 8-11067] parameter 'SecdedInv6457ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:283]
+WARNING: [Synth 8-11067] parameter 'SecdedInv6457ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:284]
+WARNING: [Synth 8-11067] parameter 'SecdedInv7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:292]
+WARNING: [Synth 8-11067] parameter 'SecdedInv7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:293]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming2216ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:301]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming2216ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:302]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming3932ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:310]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming3932ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:311]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7264ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:319]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7264ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:320]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7668ZeroEcc' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:328]
+WARNING: [Synth 8-11067] parameter 'SecdedInvHamming7668ZeroWord' declared inside package 'prim_secded_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv:329]
+WARNING: [Synth 8-11067] parameter 'RAM_1P_CFG_DEFAULT' declared inside package 'prim_ram_1p_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_generic_ram_1p_pkg_0/rtl/prim_ram_1p_pkg.sv:23]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SBOX4' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:23]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SBOX4_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:28]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS64' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:33]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS64_INV' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:38]
+WARNING: [Synth 8-11067] parameter 'PRINCE_ROUND_CONST' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:44]
+WARNING: [Synth 8-11067] parameter 'PRINCE_ALPHA_CONST' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:58]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST0' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:61]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST1' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:62]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST2' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:63]
+WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST3' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:64]
+INFO: [Common 17-14] Message 'Synth 8-11067' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6157] synthesizing module 'zybo_ibex_top' [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/new/zybo_ibex_top.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/.Xil/Vivado-11680-DESKTOP-AD77AUU/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/.Xil/Vivado-11680-DESKTOP-AD77AUU/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ibex_top' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_top.sv:15]
+	Parameter PMPEnable bound to: 1'b0 
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ibex_register_file_ff' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_register_file_ff.sv:13]
+	Parameter RV32E bound to: 1'b0 
+	Parameter DataWidth bound to: 32'b00000000000000000000000000100000 
+	Parameter DummyInstructions bound to: 1'b0 
+	Parameter WordZeroVal bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_register_file_ff' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_register_file_ff.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'prim_clock_gating' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_xilinx_clock_gating_0/rtl/prim_clock_gating.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'BUFGCE' [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:2688]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'BUFGCE' (0#1) [C:/Xilinx/2025.1/Vivado/scripts/rt/data/unisim_comp.v:2688]
+INFO: [Synth 8-6155] done synthesizing module 'prim_clock_gating' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_xilinx_clock_gating_0/rtl/prim_clock_gating.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'prim_buf' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_generic_buf_0/rtl/prim_buf.sv:7]
+	Parameter Width bound to: 32'sb00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'prim_buf' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_generic_buf_0/rtl/prim_buf.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'ibex_core' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:16]
+	Parameter PMPEnable bound to: 1'b0 
+	Parameter PMPGranularity bound to: 32'b00000000000000000000000000000000 
+	Parameter PMPNumRegions bound to: 32'b00000000000000000000000000000100 
+	Parameter PMPRstCfg bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter PMPRstAddr bound to: 544'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter PMPRstMsecCfg[rlb] bound to: 1'b0 
+	Parameter PMPRstMsecCfg[mmwp] bound to: 1'b0 
+	Parameter PMPRstMsecCfg[mml] bound to: 1'b0 
+	Parameter MHPMCounterNum bound to: 32'b00000000000000000000000000000000 
+	Parameter MHPMCounterWidth bound to: 32'b00000000000000000000000000101000 
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter RV32ZC bound to: 3 - type: integer 
+	Parameter BranchTargetALU bound to: 1'b0 
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter ICache bound to: 1'b0 
+	Parameter ICacheECC bound to: 1'b0 
+	Parameter BusSizeECC bound to: 32'b00000000000000000000000000100000 
+	Parameter TagSizeECC bound to: 32'b00000000000000000000000000010110 
+	Parameter LineSizeECC bound to: 32'b00000000000000000000000001000000 
+	Parameter BranchPredictor bound to: 1'b0 
+	Parameter DbgTriggerEn bound to: 1'b0 
+	Parameter DbgHwBreakNum bound to: 32'b00000000000000000000000000000001 
+	Parameter ResetAll bound to: 1'b0 
+	Parameter RndCnstLfsrSeed bound to: -1403831308 - type: integer 
+	Parameter RndCnstLfsrPerm bound to: 160'b0001111000110101111011001011101001000110011111111101000110110001001011101001010110000001010100101100000001001111101001000011100001111000101010001101101011101101 
+	Parameter SecureIbex bound to: 1'b0 
+	Parameter DummyInstructions bound to: 1'b0 
+	Parameter RegFileECC bound to: 1'b0 
+	Parameter RegFileDataWidth bound to: 32'b00000000000000000000000000100000 
+	Parameter MemECC bound to: 1'b0 
+	Parameter MemDataWidth bound to: 32'b00000000000000000000000000100000 
+	Parameter DmBaseAddr bound to: 437321728 - type: integer 
+	Parameter DmAddrMask bound to: 4095 - type: integer 
+	Parameter DmHaltAddr bound to: 437323776 - type: integer 
+	Parameter DmExceptionAddr bound to: 437323784 - type: integer 
+	Parameter CsrMvendorId bound to: 0 - type: integer 
+	Parameter CsrMimpId bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ibex_if_stage' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:16]
+	Parameter DmHaltAddr bound to: 437323776 - type: integer 
+	Parameter DmExceptionAddr bound to: 437323784 - type: integer 
+	Parameter DummyInstructions bound to: 1'b0 
+	Parameter ICache bound to: 1'b0 
+	Parameter RV32ZC bound to: 3 - type: integer 
+	Parameter ICacheECC bound to: 1'b0 
+	Parameter BusSizeECC bound to: 32'b00000000000000000000000000100000 
+	Parameter TagSizeECC bound to: 32'b00000000000000000000000000010110 
+	Parameter LineSizeECC bound to: 32'b00000000000000000000000001000000 
+	Parameter PCIncrCheck bound to: 1'b0 
+	Parameter ResetAll bound to: 1'b0 
+	Parameter RndCnstLfsrSeed bound to: -1403831308 - type: integer 
+	Parameter RndCnstLfsrPerm bound to: 160'b0001111000110101111011001011101001000110011111111101000110110001001011101001010110000001010100101100000001001111101001000011100001111000101010001101101011101101 
+	Parameter BranchPredictor bound to: 1'b0 
+	Parameter MemECC bound to: 1'b0 
+	Parameter MemDataWidth bound to: 32'b00000000000000000000000000100000 
+INFO: [Synth 8-6157] synthesizing module 'ibex_prefetch_buffer' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
+	Parameter ResetAll bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'ibex_fetch_fifo' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:15]
+	Parameter NUM_REQS bound to: 32'b00000000000000000000000000000010 
+	Parameter ResetAll bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_fetch_fifo' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_prefetch_buffer' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv:12]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:200]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:200]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:216]
+INFO: [Synth 8-6157] synthesizing module 'ibex_compressed_decoder' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:16]
+	Parameter RV32ZC bound to: 3 - type: integer 
+	Parameter ResetAll bound to: 1'b0 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:223]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:223]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:226]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:226]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:249]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:257]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:257]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:282]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:282]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:328]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:328]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:366]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:366]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:384]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:384]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:429]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:507]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:507]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:552]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:557]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:67]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:43]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:622]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:674]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:705]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:710]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:736]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_compressed_decoder' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_if_stage' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'ibex_id_stage' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:20]
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter DataIndTiming bound to: 1'b0 
+	Parameter BranchTargetALU bound to: 1'b0 
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter BranchPredictor bound to: 1'b0 
+	Parameter MemECC bound to: 1'b0 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:376]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:318]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:318]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:425]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:425]
+INFO: [Synth 8-6157] synthesizing module 'ibex_decoder' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:16]
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter BranchTargetALU bound to: 1'b0 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:240]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:280]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:309]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:326]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:357]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:357]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:366]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:382]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:407]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:458]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:568]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:596]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:632]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:692]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:744]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:825]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:825]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:995]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:1143]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_decoder' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'ibex_controller' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:13]
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter BranchPredictor bound to: 1'b0 
+	Parameter MemECC bound to: 1'b0 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:494]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:757]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_controller' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv:13]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:794]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:794]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:796]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_id_stage' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv:20]
+INFO: [Synth 8-6157] synthesizing module 'ibex_ex_block' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter BranchTargetALU bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'ibex_multdiv_fast' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:17]
+	Parameter RV32M bound to: 2 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:293]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:293]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:425]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_multdiv_fast' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'ibex_alu' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
+	Parameter RV32B bound to: 0 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:60]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:85]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:97]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:120]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:160]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:305]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:372]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:392]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:1322]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_alu' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_ex_block' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_load_store_unit' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:17]
+	Parameter MemECC bound to: 1'b0 
+	Parameter MemDataWidth bound to: 32'b00000000000000000000000000100000 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:119]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:119]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:122]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:130]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:130]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:142]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:142]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:156]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:156]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:176]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:176]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:229]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:229]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:244]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:244]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:283]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:283]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:322]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:322]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:383]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_load_store_unit' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'ibex_wb_stage' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_wb_stage.sv:17]
+	Parameter ResetAll bound to: 1'b0 
+	Parameter WritebackStage bound to: 1'b0 
+	Parameter DummyInstructions bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_wb_stage' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_wb_stage.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'ibex_cs_registers' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
+	Parameter DbgTriggerEn bound to: 1'b0 
+	Parameter DbgHwBreakNum bound to: 32'b00000000000000000000000000000001 
+	Parameter DataIndTiming bound to: 1'b0 
+	Parameter DummyInstructions bound to: 1'b0 
+	Parameter ShadowCSR bound to: 1'b0 
+	Parameter ICache bound to: 1'b0 
+	Parameter MHPMCounterNum bound to: 32'b00000000000000000000000000000000 
+	Parameter MHPMCounterWidth bound to: 32'b00000000000000000000000000101000 
+	Parameter PMPEnable bound to: 1'b0 
+	Parameter PMPGranularity bound to: 32'b00000000000000000000000000000000 
+	Parameter PMPNumRegions bound to: 32'b00000000000000000000000000000100 
+	Parameter PMPRstCfg bound to: 96'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter PMPRstAddr bound to: 544'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter PMPRstMsecCfg[rlb] bound to: 1'b0 
+	Parameter PMPRstMsecCfg[mmwp] bound to: 1'b0 
+	Parameter PMPRstMsecCfg[mml] bound to: 1'b0 
+	Parameter RV32E bound to: 1'b0 
+	Parameter RV32M bound to: 2 - type: integer 
+	Parameter RV32B bound to: 0 - type: integer 
+	Parameter CsrMvendorId bound to: 0 - type: integer 
+	Parameter CsrMimpId bound to: 0 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:335]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:610]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:716]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:719]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:827]
+INFO: [Synth 8-226] default block is never used [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:827]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000000110 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 6'b010000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized0' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000100000 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized0' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized1' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000010010 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 18'b000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized1' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized2' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000000111 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 7'b0000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized2' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized3' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000100000 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized3' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized4' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000100000 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 32'b01000000000000000000000000000011 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized4' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized5' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000000011 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 3'b100 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized5' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'ibex_counter' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_counter.sv:5]
+	Parameter CounterWidth bound to: 32'sb00000000000000000000000001000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_counter' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_counter.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'ibex_counter__parameterized0' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_counter.sv:5]
+	Parameter CounterWidth bound to: 32'sb00000000000000000000000001000000 
+	Parameter ProvideValUpd bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_counter__parameterized0' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_counter.sv:5]
+INFO: [Synth 8-6157] synthesizing module 'ibex_csr__parameterized6' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+	Parameter Width bound to: 32'b00000000000000000000000000001000 
+	Parameter ShadowCopy bound to: 1'b0 
+	Parameter ResetValue bound to: 8'b00000000 
+INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized6' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_cs_registers' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_core' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'ibex_top' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_top.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'zybo_ibex_top' (0#1) [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/new/zybo_ibex_top.sv:23]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mhpmcounter_incr_reg' and it is trimmed from '32' to '3' bits. [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:1285]
+WARNING: [Synth 8-3848] Net instr_rdata in module/entity zybo_ibex_top does not have driver. [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/new/zybo_ibex_top.sv:46]
+WARNING: [Synth 8-7129] Port boot_addr_i[7] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[6] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[5] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[4] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[3] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[2] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[1] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port boot_addr_i[0] in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ic_scr_key_valid_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_ret_compressed_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_ret_compressed_spec_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port iside_wait_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port jump_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port branch_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port branch_taken_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_load_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mem_store_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dside_wait_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mul_wait_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port div_wait_i in module ibex_cs_registers is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_i in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_ni in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type_wb_i[1] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instr_type_wb_i[0] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[31] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[30] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[29] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[28] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[27] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[26] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[25] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[24] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[23] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[22] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[21] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[20] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[19] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[18] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[17] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[16] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[15] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[14] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[13] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[12] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[11] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[10] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[9] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[8] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[7] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[6] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[5] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[4] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[3] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[2] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[1] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pc_id_i[0] in module ibex_wb_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][31] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][30] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][29] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][28] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][27] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][26] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][25] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][24] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][23] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][22] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][21] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][20] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][19] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][18] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][17] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][16] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][15] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][14] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][13] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][12] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][11] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][10] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][9] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][8] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][7] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][6] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][5] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][4] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][3] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][2] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][1] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[0][0] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][31] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][30] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][29] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][28] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][27] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][26] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][25] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][24] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][23] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][22] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][21] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port imd_val_q_i[1][20] in module ibex_alu is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:38 ; elapsed = 00:00:51 . Memory (MB): peak = 1497.574 ; gain = 649.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 1497.574 ; gain = 649.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:52 . Memory (MB): peak = 1497.574 ; gain = 649.609
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.411 . Memory (MB): peak = 1497.574 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_clocks'
+Finished Parsing XDC File [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_clocks'
+Parsing XDC File [C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc]
+CRITICAL WARNING: [Common 17-1548] Command failed: invalid command name "cite:"
+ [C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc:8]
+Finished Parsing XDC File [C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/zybo_ibex_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/zybo_ibex_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1599.113 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGCE => BUFGCTRL: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1599.113 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:18 ; elapsed = 00:01:43 . Memory (MB): peak = 1599.113 ; gain = 751.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:18 ; elapsed = 00:01:44 . Memory (MB): peak = 1599.113 ; gain = 751.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:18 ; elapsed = 00:01:44 . Memory (MB): peak = 1599.113 ; gain = 751.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/utils_1/imports/synth_1/ibex_top.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:01:19 ; elapsed = 00:01:46 . Memory (MB): peak = 1599.113 ; gain = 751.148
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:01:19 ; elapsed = 00:01:46 . Memory (MB): peak = 1599.113 ; gain = 751.148
+---------------------------------------------------------------------------------
