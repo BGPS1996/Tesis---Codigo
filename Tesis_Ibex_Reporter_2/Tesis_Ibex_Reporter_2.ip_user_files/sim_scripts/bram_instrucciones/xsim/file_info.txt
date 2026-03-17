@@ -1,0 +1,2 @@
+bram_instrucciones.v,verilog,xil_defaultlib,../../../../Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/sim/bram_instrucciones.v,incdir="../../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef"
+glbl.v,Verilog,xil_defaultlib,glbl.v
