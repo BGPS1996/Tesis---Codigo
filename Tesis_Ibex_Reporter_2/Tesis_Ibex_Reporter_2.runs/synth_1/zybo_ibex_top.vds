@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Mon Mar 16 17:10:19 2026
-# Process ID         : 7472
+# Start of session at: Fri Mar 20 15:54:35 2026
+# Process ID         : 4368
 # Current directory  : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1
 # Command line       : vivado.exe -log zybo_ibex_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zybo_ibex_top.tcl
 # Log file           : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/zybo_ibex_top.vds
@@ -17,12 +17,12 @@
 # CPU Physical cores : 2
 # CPU Logical cores  : 4
 # Host memory        : 12804 MB
-# Swap memory        : 3758 MB
-# Total Virtual      : 16562 MB
-# Available Virtual  : 7891 MB
+# Swap memory        : 3892 MB
+# Total Virtual      : 16696 MB
+# Available Virtual  : 6379 MB
 #-----------------------------------------------------------
 source zybo_ibex_top.tcl -notrace
-create_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 624.504 ; gain = 246.449
+create_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:17 . Memory (MB): peak = 629.004 ; gain = 247.594
 Command: read_checkpoint -auto_incremental -incremental C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/utils_1/imports/synth_1/ibex_top.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/utils_1/imports/synth_1/ibex_top.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -35,9 +35,9 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 6500
+INFO: [Synth 8-7075] Helper process launched with PID 13488
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1341.828 ; gain = 493.547
+Starting RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1342.004 ; gain = 493.984
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-11067] parameter 'ADDR_W' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:381]
 WARNING: [Synth 8-11067] parameter 'BUS_SIZE' declared inside package 'ibex_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv:382]
@@ -141,8 +141,8 @@ WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST2' declared inside pa
 WARNING: [Synth 8-11067] parameter 'PRINCE_SHIFT_ROWS_CONST3' declared inside package 'prim_cipher_pkg' shall be treated as localparam [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv:64]
 INFO: [Common 17-14] Message 'Synth 8-11067' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-6157] synthesizing module 'zybo_ibex_top' [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/new/zybo_ibex_top.sv:22]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/.Xil/Vivado-7472-DESKTOP-AD77AUU/realtime/clk_wiz_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/.Xil/Vivado-7472-DESKTOP-AD77AUU/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/.Xil/Vivado-4368-DESKTOP-AD77AUU/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/.Xil/Vivado-4368-DESKTOP-AD77AUU/realtime/clk_wiz_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'ibex_top' [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_top.sv:15]
 	Parameter PMPEnable bound to: 1'b0 
 	Parameter RV32E bound to: 1'b0 
@@ -441,126 +441,202 @@ INFO: [Synth 8-6155] done synthesizing module 'ibex_csr__parameterized6' (0#1) [
 INFO: [Synth 8-6155] done synthesizing module 'ibex_cs_registers' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:12]
 INFO: [Synth 8-6155] done synthesizing module 'ibex_core' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv:16]
 INFO: [Synth 8-6155] done synthesizing module 'ibex_top' (0#1) [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_top.sv:15]
-INFO: [Synth 8-6157] synthesizing module 'bram_instrucciones' [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/.Xil/Vivado-7472-DESKTOP-AD77AUU/realtime/bram_instrucciones_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'bram_instrucciones' (0#1) [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/.Xil/Vivado-7472-DESKTOP-AD77AUU/realtime/bram_instrucciones_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'bram_instrucciones' [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/synth/bram_instrucciones.vhd:76]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: bram_instrucciones.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 4096 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 4096 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 4096 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 4096 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 4 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     20.285598 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_11' declared at 'c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195209' bound to instance 'U0' of component 'blk_mem_gen_v8_4_11' [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/synth/bram_instrucciones.vhd:252]
+INFO: [Synth 8-256] done synthesizing module 'bram_instrucciones' (0#1) [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/synth/bram_instrucciones.vhd:76]
 WARNING: [Synth 8-689] width (4) of port connection 'web' does not match port width (1) of module 'bram_instrucciones' [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/new/zybo_ibex_top.sv:124]
 INFO: [Synth 8-6155] done synthesizing module 'zybo_ibex_top' (0#1) [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/new/zybo_ibex_top.sv:22]
 WARNING: [Synth 8-3936] Found unconnected internal register 'mhpmcounter_incr_reg' and it is trimmed from '32' to '3' bits. [C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv:1285]
-WARNING: [Synth 8-7129] Port boot_addr_i[7] in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port boot_addr_i[6] in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port boot_addr_i[5] in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port boot_addr_i[4] in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port boot_addr_i[3] in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port boot_addr_i[2] in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port boot_addr_i[1] in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port boot_addr_i[0] in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ic_scr_key_valid_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port instr_ret_compressed_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port instr_ret_compressed_spec_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port iside_wait_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port jump_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port branch_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port branch_taken_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port mem_load_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port mem_store_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port dside_wait_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port mul_wait_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port div_wait_i in module ibex_cs_registers is either unconnected or has no load
-WARNING: [Synth 8-7129] Port clk_i in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port rst_ni in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port instr_type_wb_i[1] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port instr_type_wb_i[0] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[31] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[30] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[29] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[28] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[27] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[26] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[25] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[24] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[23] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[22] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[21] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[20] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[19] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[18] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[17] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[16] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[15] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[14] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[13] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[12] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[11] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[10] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[9] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[8] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[7] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[6] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[5] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[4] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[3] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[2] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[1] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port pc_id_i[0] in module ibex_wb_stage is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][31] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][30] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][29] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][28] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][27] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][26] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][25] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][24] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][23] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][22] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][21] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][20] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][19] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][18] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][17] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][16] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][15] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][14] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][13] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][12] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][11] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][10] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][9] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][8] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][7] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][6] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][5] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][4] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][3] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][2] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][1] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[0][0] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][31] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][30] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][29] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][28] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][27] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][26] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][25] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][24] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][23] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][22] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][21] in module ibex_alu is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imd_val_q_i[1][20] in module ibex_alu is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR_I in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR_I in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[11] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[10] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[9] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[8] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[7] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[6] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[5] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[4] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[3] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[2] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[1] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[0] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA[0] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEA[3] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEA[2] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEA[1] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEB[0] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[3] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[2] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[1] in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_generic_cstr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTA in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTB in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEB in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_input_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AClk in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[3] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[2] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[1] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[31] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[30] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[29] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[28] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[27] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[26] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[25] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[24] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[23] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[22] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[21] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[20] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[19] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[18] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[17] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[16] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[15] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[14] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[13] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[12] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[11] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[10] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[9] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[8] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[7] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[6] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[5] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[4] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[3] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[2] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[1] in module blk_mem_gen_v8_4_11_synth is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1501.684 ; gain = 653.402
+Finished RTL Elaboration : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 1720.332 ; gain = 872.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1501.684 ; gain = 653.402
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 1720.332 ; gain = 872.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1501.684 ; gain = 653.402
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 1720.332 ; gain = 872.312
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.329 . Memory (MB): peak = 1501.684 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.356 . Memory (MB): peak = 1720.332 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -568,37 +644,37 @@ Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_clocks'
 Finished Parsing XDC File [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_clocks'
-Parsing XDC File [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/bram_instrucciones/bram_instrucciones_in_context.xdc] for cell 'u_memoria_sistema'
-Finished Parsing XDC File [c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/bram_instrucciones/bram_instrucciones_in_context.xdc] for cell 'u_memoria_sistema'
 Parsing XDC File [C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc]
 Finished Parsing XDC File [C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/zybo_ibex_top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/zybo_ibex_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1601.270 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1776.488 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   BUFGCE => BUFGCTRL: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1601.270 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1776.488 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1601.270 ; gain = 752.988
+Finished Constraint Validation : Time (s): cpu = 00:01:06 ; elapsed = 00:01:08 . Memory (MB): peak = 1776.488 ; gain = 928.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1601.270 ; gain = 752.988
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:06 ; elapsed = 00:01:08 . Memory (MB): peak = 1776.488 ; gain = 928.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:47 . Memory (MB): peak = 1601.270 ; gain = 752.988
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:06 ; elapsed = 00:01:08 . Memory (MB): peak = 1776.488 ; gain = 928.469
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'gen_mult_fast.mult_state_q_reg' in module 'ibex_multdiv_fast'
 INFO: [Synth 8-802] inferred FSM for state register 'md_state_q_reg' in module 'ibex_multdiv_fast'
@@ -635,7 +711,7 @@ WAIT_RVALID_MIS_GNTS_DONE |                              011 |                  
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'ls_fsm_cs_reg' using encoding 'sequential' in module 'ibex_load_store_unit'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:20 ; elapsed = 00:01:26 . Memory (MB): peak = 2256.629 ; gain = 1408.348
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:41 ; elapsed = 00:01:45 . Memory (MB): peak = 2289.633 ; gain = 1441.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -734,7 +810,7 @@ DSP Report: Generating DSP mac_res_signed, operation Mode is: C+A*B.
 DSP Report: operator mac_res_signed is absorbed into DSP mac_res_signed.
 DSP Report: operator mac_res_signed0 is absorbed into DSP mac_res_signed.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:01 ; elapsed = 00:03:09 . Memory (MB): peak = 2571.023 ; gain = 1722.742
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:25 ; elapsed = 00:03:30 . Memory (MB): peak = 2609.801 ; gain = 1761.781
 ---------------------------------------------------------------------------------
  Sort Area is  mac_res_signed_0 : 0 0 : 2365 2365 : Used 1 time 0
 ---------------------------------------------------------------------------------
@@ -756,27 +832,27 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:36 ; elapsed = 00:03:54 . Memory (MB): peak = 2571.023 ; gain = 1722.742
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:47 ; elapsed = 00:03:53 . Memory (MB): peak = 2609.801 ; gain = 1761.781
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:04:13 ; elapsed = 00:04:33 . Memory (MB): peak = 2773.523 ; gain = 1925.242
+Finished Timing Optimization : Time (s): cpu = 00:04:23 ; elapsed = 00:04:29 . Memory (MB): peak = 2793.496 ; gain = 1945.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[2]) is unused and will be removed from module zybo_ibex_top.
-WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[1]) is unused and will be removed from module zybo_ibex_top.
-WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[0]) is unused and will be removed from module zybo_ibex_top.
 WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/ex_block_i/gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[2]) is unused and will be removed from module zybo_ibex_top.
 WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/ex_block_i/gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[1]) is unused and will be removed from module zybo_ibex_top.
 WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/ex_block_i/gen_multdiv_fast.multdiv_i/FSM_sequential_md_state_q_reg[0]) is unused and will be removed from module zybo_ibex_top.
 WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/ex_block_i/gen_multdiv_fast.multdiv_i/FSM_sequential_gen_mult_fast.mult_state_q_reg[1]) is unused and will be removed from module zybo_ibex_top.
 WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/ex_block_i/gen_multdiv_fast.multdiv_i/FSM_sequential_gen_mult_fast.mult_state_q_reg[0]) is unused and will be removed from module zybo_ibex_top.
+WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[2]) is unused and will be removed from module zybo_ibex_top.
+WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[1]) is unused and will be removed from module zybo_ibex_top.
+WARNING: [Synth 8-3332] Sequential element (u_core_cpu/u_ibex_core/load_store_unit_i/FSM_sequential_ls_fsm_cs_reg[0]) is unused and will be removed from module zybo_ibex_top.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:04:18 ; elapsed = 00:04:38 . Memory (MB): peak = 2791.602 ; gain = 1943.320
+Finished Technology Mapping : Time (s): cpu = 00:04:24 ; elapsed = 00:04:30 . Memory (MB): peak = 2811.566 ; gain = 1963.547
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -794,94 +870,88 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:04:31 ; elapsed = 00:04:51 . Memory (MB): peak = 2851.777 ; gain = 2003.496
+Finished IO Insertion : Time (s): cpu = 00:04:37 ; elapsed = 00:04:43 . Memory (MB): peak = 2866.672 ; gain = 2018.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:04:31 ; elapsed = 00:04:51 . Memory (MB): peak = 2851.777 ; gain = 2003.496
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:37 ; elapsed = 00:04:43 . Memory (MB): peak = 2866.672 ; gain = 2018.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:31 ; elapsed = 00:04:51 . Memory (MB): peak = 2851.777 ; gain = 2003.496
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:37 ; elapsed = 00:04:43 . Memory (MB): peak = 2866.672 ; gain = 2018.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:04:31 ; elapsed = 00:04:51 . Memory (MB): peak = 2851.777 ; gain = 2003.496
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:37 ; elapsed = 00:04:43 . Memory (MB): peak = 2866.672 ; gain = 2018.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:04:31 ; elapsed = 00:04:51 . Memory (MB): peak = 2851.777 ; gain = 2003.496
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:37 ; elapsed = 00:04:43 . Memory (MB): peak = 2866.672 ; gain = 2018.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:04:31 ; elapsed = 00:04:51 . Memory (MB): peak = 2851.777 ; gain = 2003.496
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:37 ; elapsed = 00:04:43 . Memory (MB): peak = 2866.672 ; gain = 2018.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+------+-------------------+----------+
-|      |BlackBox name      |Instances |
-+------+-------------------+----------+
-|1     |clk_wiz_0          |         1|
-|2     |bram_instrucciones |         1|
-+------+-------------------+----------+
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
 
 Report Cell Usage: 
-+------+-------------------+------+
-|      |Cell               |Count |
-+------+-------------------+------+
-|1     |bram_instrucciones |     1|
-|2     |clk_wiz            |     1|
-|3     |BUFGCE             |     1|
-|4     |CARRY4             |    44|
-|5     |LUT1               |     2|
-|6     |LUT2               |    53|
-|7     |LUT3               |    23|
-|8     |LUT4               |   150|
-|9     |LUT5               |   158|
-|10    |LUT6               |   424|
-|11    |MUXF7              |     1|
-|12    |FDCE               |   201|
-|13    |FDPE               |     3|
-|14    |FDRE               |    55|
-|15    |IBUF               |     1|
-|16    |OBUF               |     4|
-+------+-------------------+------+
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |clk_wiz |     1|
+|2     |BUFGCE  |     1|
+|3     |CARRY4  |     7|
+|4     |LUT1    |     1|
+|5     |LUT2    |     1|
+|6     |LUT4    |     4|
+|7     |LUT5    |     3|
+|8     |LUT6    |     1|
+|9     |FDCE    |    35|
+|10    |IBUF    |     1|
+|11    |OBUF    |     4|
++------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:04:31 ; elapsed = 00:04:51 . Memory (MB): peak = 2851.777 ; gain = 2003.496
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:37 ; elapsed = 00:04:43 . Memory (MB): peak = 2866.672 ; gain = 2018.652
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 431 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:04:03 ; elapsed = 00:04:44 . Memory (MB): peak = 2851.777 ; gain = 1903.910
-Synthesis Optimization Complete : Time (s): cpu = 00:04:31 ; elapsed = 00:04:52 . Memory (MB): peak = 2851.777 ; gain = 2003.496
+Synthesis finished with 0 errors, 0 critical warnings and 582 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:46 ; elapsed = 00:04:35 . Memory (MB): peak = 2866.672 ; gain = 1962.496
+Synthesis Optimization Complete : Time (s): cpu = 00:04:37 ; elapsed = 00:04:44 . Memory (MB): peak = 2866.672 ; gain = 2018.652
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 2851.777 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2866.672 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2864.590 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2881.426 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   BUFGCE => BUFGCTRL: 1 instance 
 
-Synth Design complete | Checksum: fefa320
+Synth Design complete | Checksum: d8954d74
 INFO: [Common 17-83] Releasing license: Synthesis
-193 Infos, 211 Warnings, 0 Critical Warnings and 0 Errors encountered.
+194 Infos, 211 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:04:41 ; elapsed = 00:05:22 . Memory (MB): peak = 2864.590 ; gain = 2225.664
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2864.590 ; gain = 0.000
+synth_design: Time (s): cpu = 00:04:46 ; elapsed = 00:04:57 . Memory (MB): peak = 2881.426 ; gain = 2241.688
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2881.426 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/zybo_ibex_top.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file zybo_ibex_top_utilization_synth.rpt -pb zybo_ibex_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Mar 16 17:16:12 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 20 16:00:02 2026...

@@ -1,0 +1,232 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Mar 19 17:47:04 2026
+# Process ID         : 8100
+# Current directory  : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent708 C:\Users\BGPS\Desktop\Tesis\Tesis\project\Tesis_Ibex_Reporter_2\Tesis_Ibex_Reporter_2.xpr
+# Log file           : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/vivado.log
+# Journal file       : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2\vivado.jou
+# Running On         : DESKTOP-AD77AUU
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19044
+# Processor Detail   : Intel(R) Core(TM) i3-5005U CPU @ 2.00GHz
+# CPU Frequency      : 1995 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 12804 MB
+# Swap memory        : 3892 MB
+# Total Virtual      : 16696 MB
+# Available Virtual  : 8873 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_pkg_0.1/rtl/ibex_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_alu.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_assert_0.1/rtl/prim_assert.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_assert_0.1/rtl/prim_flop_macros.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_assert_0.1/rtl/prim_assert_dummy_macros.svh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_assert_0.1/rtl/prim_assert_sec_cm.svh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_branch_predict.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_compressed_decoder.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_dv_dv_fcov_macros_0/dv_fcov_macros.svh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_controller.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_core.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_counter.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_cs_registers.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_csr.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_decoder.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_dummy_instr.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_ex_block.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_fetch_fifo.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_icache_0.1/rtl/ibex_icache.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_id_stage.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_if_stage.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_load_store_unit.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_util_0.1/rtl/prim_util_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_lockstep.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_fast.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_multdiv_slow.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_pmp.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_prefetch_buffer.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_register_file_ff.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_register_file_fpga.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_register_file_latch.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_generic_ram_1p_pkg_0/rtl/prim_ram_1p_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_top_0.1/rtl/ibex_top.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_ibex_ibex_core_0.1/rtl/ibex_wb_stage.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_generic_buf_0/rtl/prim_buf.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_pkg_0.1/rtl/prim_cipher_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_xilinx_clock_gating_0/rtl/prim_clock_gating.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_xilinx_clock_mux2_0/rtl/prim_clock_mux2.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_count_0/rtl/prim_count_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_count_0/rtl/prim_count.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_generic_flop_0/rtl/prim_flop.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_lfsr_0.1/rtl/prim_lfsr.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_pkg_0.1/rtl/prim_mubi_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_0/rtl/prim_prince.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_util_memload_0/rtl/prim_util_memload.svh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_generic_ram_1p_0/rtl/prim_ram_1p.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_ram_1p_adv_0.1/rtl/prim_ram_1p_adv.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_util_get_scramble_params_0/rtl/prim_util_get_scramble_params.svh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_ram_1p_scr_0.1/rtl/prim_ram_1p_scr.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_22_16_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_22_16_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_28_22_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_28_22_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_39_32_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_39_32_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_22_16_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_22_16_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_39_32_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_inv_hamming_39_32_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_0/rtl/prim_subst_perm.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi32_sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_generic_and2_0/rtl/prim_and2.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi12_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi12_sender.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi12_sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi16_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi16_sender.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi16_sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi20_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi20_sender.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi20_sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi24_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi24_sender.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi24_sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi28_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi28_sender.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi28_sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi32_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi32_sender.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi4_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi4_sender.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi4_sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi8_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi8_sender.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_mubi_0.1/rtl/prim_mubi8_sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_onehot_check_0/rtl/prim_onehot_check.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_onehot_0/rtl/prim_onehot_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_onehot_0/rtl/prim_onehot_mux.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_0/rtl/prim_present.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_22_16_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_22_16_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_28_22_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_28_22_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_39_32_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_39_32_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_64_57_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_64_57_enc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_72_64_dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_secded_0.1/rtl/prim_secded_72_64_enc.sv'.
+INFO: [Common 17-14] Message 'Project 1-19' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.0\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\emb-plus-vpr-4616\1.1\board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.6\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu105\1.7\board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.4\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\kcu116\1.5\board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:scu35:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\scu35\1.0\board.xml as part xcsu35p-sbvb625-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:v80:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\v80\1.0\board.xml as part xcv80-lsva4737-2mhp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.6\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu108\1.7\board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu110\1.4\board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu128\production\1.0\board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vcu129\production\1.0\board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.0\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.1\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek280\production\1.2\board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek385:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vek385\1.0\board.xml as part xc2ve3858-ssva2112-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vermeo_t1_rfsoc\1.0\board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.0\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.1\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vhk158\production\1.2\board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.0\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.1\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\vpk180\production\1.2\board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.2\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.3\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu111\1.4\board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1275\1.0\board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu1285\1.0\board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208\production\2.0\board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu208ld\production\2.0\board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216\production\2.0\board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu216ld\production\2.0\board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670\2.0\board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/2025.1/data/xhub/boards\XilinxBoardStore\boards\Xilinx\zcu670ld\1.0\board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'bram_instrucciones' generated file not found 'c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/bram_instrucciones.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bram_instrucciones' generated file not found 'c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/bram_instrucciones_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bram_instrucciones' generated file not found 'c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/bram_instrucciones_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bram_instrucciones' generated file not found 'c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/bram_instrucciones_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bram_instrucciones' generated file not found 'c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/bram_instrucciones/bram_instrucciones_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:01:11 ; elapsed = 00:00:39 . Memory (MB): peak = 1757.297 ; gain = 285.926
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run bram_instrucciones_synth_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/utils_1/imports/synth_1/ibex_top.dcp with file C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/zybo_ibex_top.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Fri Mar 20 15:00:56 2026] Launched bram_instrucciones_synth_1...
+Run output will be captured here: C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/bram_instrucciones_synth_1/runme.log
+[Fri Mar 20 15:00:57 2026] Launched synth_1...
+Run output will be captured here: C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/runme.log
+reset_run bram_instrucciones_synth_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Fri Mar 20 15:06:30 2026] Launched bram_instrucciones_synth_1...
+Run output will be captured here: C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/bram_instrucciones_synth_1/runme.log
+[Fri Mar 20 15:06:30 2026] Launched synth_1...
+Run output will be captured here: C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 20 15:07:29 2026...

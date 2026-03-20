@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Mon Mar 16 17:10:19 2026
-# Process ID         : 7472
+# Start of session at: Fri Mar 20 15:54:35 2026
+# Process ID         : 4368
 # Current directory  : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1
 # Command line       : vivado.exe -log zybo_ibex_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source zybo_ibex_top.tcl
 # Log file           : C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.runs/synth_1/zybo_ibex_top.vds
@@ -17,8 +17,8 @@
 # CPU Physical cores : 2
 # CPU Logical cores  : 4
 # Host memory        : 12804 MB
-# Swap memory        : 3758 MB
-# Total Virtual      : 16562 MB
-# Available Virtual  : 7891 MB
+# Swap memory        : 3892 MB
+# Total Virtual      : 16696 MB
+# Available Virtual  : 6379 MB
 #-----------------------------------------------------------
 source zybo_ibex_top.tcl -notrace

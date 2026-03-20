@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Mon Mar 16 17:20:48 2026
+| Date         : Fri Mar 20 16:17:08 2026
 | Host         : DESKTOP-AD77AUU running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -routable_nets -report_unconstrained -file zybo_ibex_top_timing_summary_routed.rpt -pb zybo_ibex_top_timing_summary_routed.pb -rpx zybo_ibex_top_timing_summary_routed.rpx -warn_on_violation
 | Design       : zybo_ibex_top
@@ -6763,8 +6763,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.305     5.121    u_core_cpu_n_0
     SLICE_X42Y56         FDCE                                         f  hw_timestamp_reg[24]/CLR
   -------------------------------------------------------------------    -------------------
@@ -6805,8 +6805,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.305     5.121    u_core_cpu_n_0
     SLICE_X42Y56         FDCE                                         f  hw_timestamp_reg[25]/CLR
   -------------------------------------------------------------------    -------------------
@@ -6847,8 +6847,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.305     5.121    u_core_cpu_n_0
     SLICE_X42Y56         FDCE                                         f  hw_timestamp_reg[26]/CLR
   -------------------------------------------------------------------    -------------------
@@ -6889,8 +6889,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.305     5.121    u_core_cpu_n_0
     SLICE_X42Y56         FDCE                                         f  hw_timestamp_reg[27]/CLR
   -------------------------------------------------------------------    -------------------
@@ -6931,8 +6931,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.166     4.983    u_core_cpu_n_0
     SLICE_X42Y55         FDCE                                         f  hw_timestamp_reg[20]/CLR
   -------------------------------------------------------------------    -------------------
@@ -6973,8 +6973,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.166     4.983    u_core_cpu_n_0
     SLICE_X42Y55         FDCE                                         f  hw_timestamp_reg[21]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7015,8 +7015,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.166     4.983    u_core_cpu_n_0
     SLICE_X42Y55         FDCE                                         f  hw_timestamp_reg[22]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7057,8 +7057,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.166     4.983    u_core_cpu_n_0
     SLICE_X42Y55         FDCE                                         f  hw_timestamp_reg[23]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7099,8 +7099,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.018     4.834    u_core_cpu_n_0
     SLICE_X42Y54         FDCE                                         f  hw_timestamp_reg[16]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7141,8 +7141,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.018     4.834    u_core_cpu_n_0
     SLICE_X42Y54         FDCE                                         f  hw_timestamp_reg[17]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7185,8 +7185,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.173     1.323    u_core_cpu_n_0
     SLICE_X42Y50         FDCE                                         f  hw_timestamp_reg[0]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7223,8 +7223,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.173     1.323    u_core_cpu_n_0
     SLICE_X42Y50         FDCE                                         f  hw_timestamp_reg[1]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7261,8 +7261,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.173     1.323    u_core_cpu_n_0
     SLICE_X42Y50         FDCE                                         f  hw_timestamp_reg[2]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7299,8 +7299,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.173     1.323    u_core_cpu_n_0
     SLICE_X42Y50         FDCE                                         f  hw_timestamp_reg[3]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7337,8 +7337,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.211     1.361    u_core_cpu_n_0
     SLICE_X42Y51         FDCE                                         f  hw_timestamp_reg[4]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7375,8 +7375,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.211     1.361    u_core_cpu_n_0
     SLICE_X42Y51         FDCE                                         f  hw_timestamp_reg[5]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7413,8 +7413,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.211     1.361    u_core_cpu_n_0
     SLICE_X42Y51         FDCE                                         f  hw_timestamp_reg[6]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7451,8 +7451,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.211     1.361    u_core_cpu_n_0
     SLICE_X42Y51         FDCE                                         f  hw_timestamp_reg[7]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7489,8 +7489,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.275     1.425    u_core_cpu_n_0
     SLICE_X42Y52         FDCE                                         f  hw_timestamp_reg[10]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7527,8 +7527,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.275     1.425    u_core_cpu_n_0
     SLICE_X42Y52         FDCE                                         f  hw_timestamp_reg[11]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7585,8 +7585,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.305     5.121    u_core_cpu_n_0
     SLICE_X42Y56         FDCE                                         f  hw_timestamp_reg[24]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7627,8 +7627,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.305     5.121    u_core_cpu_n_0
     SLICE_X42Y56         FDCE                                         f  hw_timestamp_reg[25]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7669,8 +7669,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.305     5.121    u_core_cpu_n_0
     SLICE_X42Y56         FDCE                                         f  hw_timestamp_reg[26]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7711,8 +7711,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.305     5.121    u_core_cpu_n_0
     SLICE_X42Y56         FDCE                                         f  hw_timestamp_reg[27]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7753,8 +7753,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.166     4.983    u_core_cpu_n_0
     SLICE_X42Y55         FDCE                                         f  hw_timestamp_reg[20]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7795,8 +7795,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.166     4.983    u_core_cpu_n_0
     SLICE_X42Y55         FDCE                                         f  hw_timestamp_reg[21]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7837,8 +7837,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.166     4.983    u_core_cpu_n_0
     SLICE_X42Y55         FDCE                                         f  hw_timestamp_reg[22]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7879,8 +7879,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.166     4.983    u_core_cpu_n_0
     SLICE_X42Y55         FDCE                                         f  hw_timestamp_reg[23]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7921,8 +7921,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.018     4.834    u_core_cpu_n_0
     SLICE_X42Y54         FDCE                                         f  hw_timestamp_reg[16]/CLR
   -------------------------------------------------------------------    -------------------
@@ -7963,8 +7963,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         1.459     1.459 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           2.233     3.692    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.124     3.816 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          1.018     4.834    u_core_cpu_n_0
     SLICE_X42Y54         FDCE                                         f  hw_timestamp_reg[17]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8007,8 +8007,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.173     1.323    u_core_cpu_n_0
     SLICE_X42Y50         FDCE                                         f  hw_timestamp_reg[0]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8045,8 +8045,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.173     1.323    u_core_cpu_n_0
     SLICE_X42Y50         FDCE                                         f  hw_timestamp_reg[1]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8083,8 +8083,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.173     1.323    u_core_cpu_n_0
     SLICE_X42Y50         FDCE                                         f  hw_timestamp_reg[2]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8121,8 +8121,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.173     1.323    u_core_cpu_n_0
     SLICE_X42Y50         FDCE                                         f  hw_timestamp_reg[3]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8159,8 +8159,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.211     1.361    u_core_cpu_n_0
     SLICE_X42Y51         FDCE                                         f  hw_timestamp_reg[4]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8197,8 +8197,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.211     1.361    u_core_cpu_n_0
     SLICE_X42Y51         FDCE                                         f  hw_timestamp_reg[5]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8235,8 +8235,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.211     1.361    u_core_cpu_n_0
     SLICE_X42Y51         FDCE                                         f  hw_timestamp_reg[6]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8273,8 +8273,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.211     1.361    u_core_cpu_n_0
     SLICE_X42Y51         FDCE                                         f  hw_timestamp_reg[7]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8311,8 +8311,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.275     1.425    u_core_cpu_n_0
     SLICE_X42Y52         FDCE                                         f  hw_timestamp_reg[10]/CLR
   -------------------------------------------------------------------    -------------------
@@ -8349,8 +8349,8 @@ Slack:                    inf
     R18                                               0.000     0.000 f  rst_pin (IN)
                          net (fo=0)                   0.000     0.000    rst_pin
     R18                  IBUF (Prop_ibuf_I_O)         0.227     0.227 f  rst_pin_IBUF_inst/O
-                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/rst_pin_IBUF
-    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2/O
+                         net (fo=1, routed)           0.878     1.105    u_core_cpu/u_ibex_core/id_stage_i/controller_i/rst_pin_IBUF
+    SLICE_X43Y50         LUT2 (Prop_lut2_I0_O)        0.045     1.150 f  u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2/O
                          net (fo=28, routed)          0.275     1.425    u_core_cpu_n_0
     SLICE_X42Y52         FDCE                                         f  hw_timestamp_reg[11]/CLR
   -------------------------------------------------------------------    -------------------

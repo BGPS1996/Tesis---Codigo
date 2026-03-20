@@ -74,6 +74,7 @@ set_property ip_output_repo c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+add_files C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/files/programa_tesis.coe
 read_verilog {
   C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_assert_0.1/rtl/prim_assert.sv
   C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_assert_0.1/rtl/prim_flop_macros.sv
@@ -147,12 +148,12 @@ read_verilog -library xil_defaultlib -sv {
   C:/Users/BGPS/Desktop/pro1/ibex-master/build/ibex_out/lowrisc_ibex_ibex_top_0.1/lint-verilator/src/lowrisc_prim_cipher_0/rtl/prim_subst_perm.sv
   C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/new/zybo_ibex_top.sv
 }
+read_ip -quiet C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/ip/bram_instrucciones/bram_instrucciones.xci
+
 read_ip -quiet C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci
 set_property used_in_implementation false [get_files -all c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.gen/sources_1/ip/clk_wiz_0_1/clk_wiz_0_ooc.xdc]
-
-read_ip -quiet C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/sources_1/ip/bram_instrucciones/bram_instrucciones.xci
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -166,6 +167,8 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 read_xdc {{C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc}}
 set_property used_in_implementation false [get_files {{C:/Users/BGPS/Desktop/Tesis/Tutoriales/xdc - zybo/Zybo-Master.xdc}}]
 
+read_xdc dont_touch.xdc
+set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
 read_checkpoint -auto_incremental -incremental C:/Users/BGPS/Desktop/Tesis/Tesis/project/Tesis_Ibex_Reporter_2/Tesis_Ibex_Reporter_2.srcs/utils_1/imports/synth_1/ibex_top.dcp

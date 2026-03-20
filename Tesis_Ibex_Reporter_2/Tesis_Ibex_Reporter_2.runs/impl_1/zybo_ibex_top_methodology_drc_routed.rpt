@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Mon Mar 16 17:20:48 2026
+| Date         : Fri Mar 20 16:17:08 2026
 | Host         : DESKTOP-AD77AUU running 64-bit major release  (build 9200)
 | Command      : report_methodology -file zybo_ibex_top_methodology_drc_routed.rpt -pb zybo_ibex_top_methodology_drc_routed.pb -rpx zybo_ibex_top_methodology_drc_routed.rpx
 | Design       : zybo_ibex_top
@@ -46,7 +46,7 @@ Related violations: <none>
 
 LUTAR-1#1 Warning
 LUT drives async reset alert  
-LUT cell u_core_cpu/u_ibex_core/cs_registers_i/mcycle_counter_i/valid_req_q_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) hw_timestamp_reg[21]/CLR, hw_timestamp_reg[22]/CLR,
+LUT cell u_core_cpu/u_ibex_core/id_stage_i/controller_i/valid_req_q_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) hw_timestamp_reg[21]/CLR, hw_timestamp_reg[22]/CLR,
 hw_timestamp_reg[23]/CLR, hw_timestamp_reg[24]/CLR,
 hw_timestamp_reg[25]/CLR, hw_timestamp_reg[26]/CLR,
 hw_timestamp_reg[27]/CLR, hw_timestamp_reg[2]/CLR, hw_timestamp_reg[3]/CLR,
